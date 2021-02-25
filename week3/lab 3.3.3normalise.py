@@ -1,4 +1,4 @@
-# read in string, strips spaces, convert to lower case, output length of input and output strings
+# This program reads in string, strips spaces, convert to lower case, output length of input and output strings
 # Author: Ka Ling Ip
 
 #read in string
