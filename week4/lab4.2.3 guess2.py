@@ -2,14 +2,11 @@
 # give hint for the guess
 # Author: Ka Ling Ip
 
-# set the right asnwer
-
-rightAnswer = 30
-# ask user for a number
-value = int(input("Please guess the number:"))
+rightAnswer = 30 # set the right asnwer
+value = int(input("Please guess the number:")) # ask user for a number
 while value != rightAnswer:
     if value > rightAnswer:
-        print("Too high") #give hint for the right answer
+        print("Too high") #give hint by comparing user input and the right answer
     else:
         print("Too low")
     value = int(input("Please guess again:"))
